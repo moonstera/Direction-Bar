@@ -3,10 +3,10 @@ Minecraft Bedrock Edition専用のアドオンです。
 コンパスを持つと方角やコンパスに記録した座標の方向がわかるUIが表示されるようになります。
 
 # ダウンロード
-[最新バージョン](https://pages.github.com/)
+[最新バージョン](https://github.com/moonstera/Direction-Bar/releases/download/0.0.1/Direction-Bar.mcaddon)
 
 ## 導入方法
- 1. [最新バージョン](https://pages.github.com/)からmcaddonファイルをダウンロードし、マインクラフトにインポートしてください。
+ 1. [最新バージョン](https://github.com/moonstera/Direction-Bar/releases/download/0.0.1/Direction-Bar.mcaddon)からmcaddonファイルをダウンロードし、マインクラフトにインポートしてください。
  2. ワールドの設定から*ゲームテスト フレームワーク*と*Molang 機能*、そしてこのアドオンを有効化してください。
 
 # 機能
@@ -19,7 +19,7 @@ Minecraft Bedrock Edition専用のアドオンです。
  beta 1.18.20.25
 
 # 利用規約
-[ライセンス](https://pages.github.com/)に従ってください。
+[ライセンス](https://github.com/moonstera/Direction-Bar/blob/0.0.1/LICENSE)に従ってください。
 
 # 既知の不具合
 -エリトラ使用中に表示されない。
