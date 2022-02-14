@@ -7,7 +7,7 @@ Minecraft Bedrock Edition専用のアドオンです。
 
 ## 導入方法
  1. [最新バージョン](https://github.com/moonstera/Direction-Bar/releases/download/0.0.1/Direction-Bar.mcaddon)からmcaddonファイルをダウンロードし、マインクラフトにインポートしてください。
- 2. ワールドの設定から*ゲームテスト フレームワーク*と*Molang 機能*、そしてこのアドオンを有効化してください。
+ 2. ワールドの設定から`ゲームテスト フレームワーク`と`Molang 機能`、そしてこのアドオンを有効化してください。
 
 # 機能
  コンパスを持つと画面上部に自分が向いている方角が中心にくる棒状のUIが表示されます。  
