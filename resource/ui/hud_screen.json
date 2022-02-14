@@ -31,9 +31,7 @@
 
   "direction_bar": {
     "type": "panel",
-    //10?,10?
     "size": [ "10%", "10%" ],
-    //2:1px default:y-46
     "$offset|default": [ 0, "110%" ],
     "variables": [
       {
