@@ -3,6 +3,7 @@ Minecraft Bedrock Edition専用のアドオンです。
 コンパスを持つと方角やコンパスに記録した座標の方向がわかるUIが表示されるようになります。
 
 ##ダウンロード
+
 [最新バージョン](https://pages.github.com/)
 
 ##導入方法
@@ -19,7 +20,9 @@ Minecraft Bedrock Edition専用のアドオンです。
  beta 1.18.20.25
 
 #利用規約
+
 [ライセンス](https://pages.github.com/)に従ってください。
 
 #既知の不具合
+
 -エリトラ使用中に表示されない。
