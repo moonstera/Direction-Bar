@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "display direction bar.",
+        "name": "Direction Bar",
+        "uuid": "f3e11a68-f185-43d7-b308-fa7446bc9518",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 18, 10 ]
+    },
+    "modules": [
+        {
+            "description": "display direction bar.",
+            "type": "resources",
+            "uuid": "5ee0f711-8eb0-4ccb-98a1-d442ce56dcea",
+            "version": [0, 0, 1]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "29e71969-3dd1-47b0-8d69-9b4b3461b5fb",
+            "version": [0, 0, 1]
+        }
+    ]
+}

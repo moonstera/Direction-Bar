@@ -1,0 +1,74 @@
+{
+	"format_version" : "1.10.0",
+	"animations" : {
+		"animation.direction_bar.slide" : {
+			"loop" : true,
+			"bones": {
+				"marker": {
+					"position": [
+					"math.abs(variable.marker_direction - variable.player_y_rotation) <= 75 && query.mark_variant ? variable.marker_direction - variable.player_y_rotation : 1000",
+					0.0,  
+					0.0
+					]
+				},
+				"my_north": {
+					"position": [ 
+					"(variable.player_y_rotation < -105) || (variable.player_y_rotation >= 105) ? -math.floor(variable.player_y_rotation) + 180*variable.player_y_rotation/math.abs(variable.player_y_rotation) : 1000",  
+					0.0,
+					0.0
+					]
+				},
+				"my_east": {
+					"position": [ 
+					"(query.skin_id < -15) && (query.skin_id >= -165) ? -math.floor(query.skin_id) - 90 : 1000", 
+					0.0,
+					0.0
+					]
+				},
+				"west": {
+					"position": [ 
+					"(query.skin_id < 165) && (query.skin_id >= 15) ? -math.floor(query.skin_id) + 90 : 1000", 
+					0.0,  
+					0.0
+					]
+				},
+				"south": {
+					"position": [ 
+					"(query.skin_id < 75) && (query.skin_id >= -75) ? -math.floor(query.skin_id) : 1000", 
+					0.0,  
+					0.0
+					]
+				}
+			}
+		},
+		"animation.direction_bar.riding" : {
+			"loop" : true,
+			"bones": {
+				"derection_bar": {
+					"rotation" : [ 0.0, "v.ride_y_rotation=query.get_ride->query.body_y_rotation;return math.abs(v.ride_y_rotation) <= 50 ? (-1 *  v.ride_y_rotation) : (-50 * v.ride_y_rotation/math.abs( v.ride_y_rotation ));" , 0.0 ]
+				}
+			}
+		},
+		"animation.direction_bar.swimming" : {
+			"loop" : true,
+			"bones": {
+				"derection_bar": {
+					"position": [ 0.0, -10.0, 0.0 ]
+				}
+			}
+		}//,
+		//"animation.direction_bar.gliding" : {
+			//"loop" : true,
+			//"bones": {
+				//"derection_bar": {//bone_orientation_trsは働くがエラーを吐く&エリトラのトランスフォームには意味なかった
+					//"rotation": [
+						//"v.bar_trs = q.bone_orientation_trs('body'); return (-1 * v.bar_trs.r.x);",
+						//"v.bar_trs = q.bone_orientation_trs('body'); return (-1 * v.bar_trs.r.y);",
+						//"v.bar_trs = q.bone_orientation_trs('body'); return (-1 * v.bar_trs.r.z);"
+					//]
+					//"v.my_variable = q.bone_orientation_trs(derection_bar); return v.my_variable.r.x;"
+				//}
+			//}
+		//}
+	}
+}
