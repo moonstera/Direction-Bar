@@ -49,7 +49,7 @@ function showMarkerForm(dim, player, item_stack, pos){
           new_lore_data = createLoreData(name, [pos.x, pos.z]);
           message = "マーカー:" + name + " を設定しました。";
         }
-        //アイテムのLoreが何もないか、これ以外に他になかったら
+        //アイテムのLoreが何もないか、これ以外の他になかったら
         if(lore_data == null && item_lores.length == 0 || (lore_data != null && item_lores.length == 1)){
           new_item_stack.setLore([new_lore_data]);
         } else if(lore_data == null){  //未設定かつ他にLoreがあるなら
@@ -86,14 +86,6 @@ world.events.itemUse.subscribe(event => {
       if(event.item.id == "minecraft:compass"){
         const players = world.getPlayers();
         for(const player of players){
-          /*
-          if(event.item.id == "minecraft:stick"){
-          let new_item_stack = new ItemStack(MinecraftItemTypes.compass);
-          let new_lores = ["test1"].concat(entity.getComponent("inventory").container.getItem(0).getLore());
-          new_item_stack.setLore(new_lores.concat(["test2"]));
-          entity.getComponent("inventory").container.setItem(0, new_item_stack);
-          }
-          */      
           if(entity == player){
             showMarkerForm(dim, player, event.item, pos);
             break;
@@ -123,10 +115,6 @@ world.events.tick.subscribe(event => {
           let cross = Vector.cross(z_vec, marker_vec);
           let marker_direction = -Math.sign(cross.y) *  Math.round(Math.acos( (multiply.x + multiply.z) ) * 180/Math.PI );
           player.triggerEvent("marker_direction_" + String(marker_direction));
-
-          //let body_rotation = player.bodyRotation;
-          //let dim = player.dimension;
-          //dim.runCommand("say view: [" + String(view_vec.x) + ", " + String(view_vec.y) + ", " + String(view_vec.z));// + ", body: " + String(body_rotation));
         } else {
           player.triggerEvent("no_marker");
         }
