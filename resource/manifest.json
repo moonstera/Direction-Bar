@@ -5,7 +5,7 @@
         "name": "Direction Bar",
         "uuid": "f3e11a68-f185-43d7-b308-fa7446bc9518",
         "version": [0, 0, 1],
-        "min_engine_version": [ 1, 18, 10 ]
+        "min_engine_version": [ 1, 18, 20 ]
     },
     "modules": [
         {
