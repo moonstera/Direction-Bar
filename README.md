@@ -20,8 +20,8 @@ Minecraft Bedrock Edition専用のアドオンです。
  マーカーの削除、名前変更、再設定する場合はもう一度右クリックか長押ししてください。  
  マーカーはコンパス一つにつき一つ設定できます。
 
-# 利用規約
-[ライセンス](https://github.com/moonstera/Direction-Bar/blob/0.0.1/LICENSE)に従ってください。
+## ライセンス
+[MIT](https://github.com/moonstera/Direction-Bar/blob/main/LICENSE)
 
-# 既知の不具合
+## 既知の不具合
 -エリトラ使用中に表示されない。
