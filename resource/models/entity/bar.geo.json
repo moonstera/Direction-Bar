@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.derection_bar",
+				"identifier": "geometry.direction_bar",
 				"texture_width": 128,
 				"texture_height": 64,
 				"visible_bounds_width": 11,
@@ -12,12 +12,12 @@
 			},
 			"bones": [
 				{
-					"name": "derection_bar",
+					"name": "direction_bar",
 					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "bar",
-					"parent": "derection_bar",
+					"parent": "direction_bar",
 					"pivot": [0, 0, 0],
 					"cubes": [
 						{
@@ -60,7 +60,7 @@
 				},
 				{
 					"name": "marker",
-					"parent": "derection_bar",
+					"parent": "direction_bar",
 					"pivot": [0, 0, 0],
 					"cubes": [
 						{
@@ -79,7 +79,7 @@
 				},
 				{
 					"name": "my_north",
-					"parent": "derection_bar",
+					"parent": "direction_bar",
 					"pivot": [0, 0, 0],
 					"cubes": [
 						{
@@ -98,7 +98,7 @@
 				},
 				{
 					"name": "my_east",
-					"parent": "derection_bar",
+					"parent": "direction_bar",
 					"pivot": [0, 0, 0],
 					"cubes": [
 						{
@@ -117,7 +117,7 @@
 				},
 				{
 					"name": "west",
-					"parent": "derection_bar",
+					"parent": "direction_bar",
 					"pivot": [0, 0, 0],
 					"cubes": [
 						{
@@ -136,7 +136,7 @@
 				},
 				{
 					"name": "south",
-					"parent": "derection_bar",
+					"parent": "direction_bar",
 					"pivot": [0, 0, 0],
 					"cubes": [
 						{

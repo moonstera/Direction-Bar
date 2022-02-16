@@ -44,7 +44,7 @@
 		"animation.direction_bar.riding" : {
 			"loop" : true,
 			"bones": {
-				"derection_bar": {
+				"direction_bar": {
 					"rotation" : [ 0.0, "v.ride_y_rotation=query.get_ride->query.body_y_rotation;return math.abs(v.ride_y_rotation) <= 50 ? (-1 *  v.ride_y_rotation) : (-50 * v.ride_y_rotation/math.abs( v.ride_y_rotation ));" , 0.0 ]
 				}
 			}
@@ -52,7 +52,7 @@
 		"animation.direction_bar.swimming" : {
 			"loop" : true,
 			"bones": {
-				"derection_bar": {
+				"direction_bar": {
 					"position": [ 0.0, -10.0, 0.0 ]
 				}
 			}
@@ -60,13 +60,13 @@
 		//"animation.direction_bar.gliding" : {
 			//"loop" : true,
 			//"bones": {
-				//"derection_bar": {//bone_orientation_trsは働くがエラーを吐く&エリトラのトランスフォームには意味なかった
+				//"direction_bar": {//bone_orientation_trsは働くがエラーを吐く&エリトラのトランスフォームには意味なかった
 					//"rotation": [
 						//"v.bar_trs = q.bone_orientation_trs('body'); return (-1 * v.bar_trs.r.x);",
 						//"v.bar_trs = q.bone_orientation_trs('body'); return (-1 * v.bar_trs.r.y);",
 						//"v.bar_trs = q.bone_orientation_trs('body'); return (-1 * v.bar_trs.r.z);"
 					//]
-					//"v.my_variable = q.bone_orientation_trs(derection_bar); return v.my_variable.r.x;"
+					//"v.my_variable = q.bone_orientation_trs(direction_bar); return v.my_variable.r.x;"
 				//}
 			//}
 		//}

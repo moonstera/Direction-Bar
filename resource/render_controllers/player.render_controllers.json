@@ -44,17 +44,17 @@
       ]
     },
     "controller.render.direction_bar": {
-      "geometry": "Geometry.derection_bar",
-      "materials": [ { "*": "Material.derection_bar" } ],
-      "textures": [ "Texture.derection_bar"],
+      "geometry": "Geometry.direction_bar",
+      "materials": [ { "*": "Material.direction_bar" } ],
+      "textures": [ "Texture.direction_bar"],
       "part_visibility": [
         { "*": "query.is_in_ui && variable.gliding_speed_value <= 1.0 && query.is_item_name_any('slot.weapon.mainhand',0,'minecraft:compass')" }
       ],
       "is_hurt_color": {
-        "r": 0,
-        "g": 0,
-        "b": 0,
-        "a": 0
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
       },
       "on_fire_color": {
         "r": 0.0,

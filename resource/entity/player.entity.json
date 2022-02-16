@@ -7,17 +7,17 @@
         "default": "entity_alphatest",
         "cape": "entity_alphatest",
         "animated": "player_animated",
-        "derection_bar": "slime_outer"
+        "direction_bar": "slime_outer"
       },
       "textures": {
         "default": "textures/entity/steve",
         "cape": "textures/entity/cape_invisible",
-        "derection_bar": "textures/ui/direction_bar"
+        "direction_bar": "textures/ui/direction_bar"
       },
       "geometry": {
         "default": "geometry.humanoid.custom",
         "cape": "geometry.cape",
-        "derection_bar": "geometry.derection_bar"
+        "direction_bar": "geometry.direction_bar"
       },
       //"queryable_geometry": "default",
       "scripts": {
