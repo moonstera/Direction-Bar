@@ -24,6 +24,7 @@ function showMarkerForm(dim, player, item_stack, pos){
       let inventory = player.getComponent("inventory").container;
       let residual_item_stack = new ItemStack(MinecraftItemTypes.compass, item_stack.amount-1, item_stack.data);
       let new_item_stack = new ItemStack(MinecraftItemTypes.compass, 1, item_stack.data);
+      new_item_stack.nameTag = item_stack.nameTag;
       if(lore_data != null){
         del = res.formValues[0];
         only_name = res.formValues[1];
