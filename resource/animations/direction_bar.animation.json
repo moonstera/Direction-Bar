@@ -53,7 +53,7 @@
 			"loop" : true,
 			"bones": {
 				"direction_bar": {
-					"position": [ 0.0, -10.0, 0.0 ]
+					"position": [ 0.0, -12.0, 0.0 ]
 				}
 			}
 		}//,
