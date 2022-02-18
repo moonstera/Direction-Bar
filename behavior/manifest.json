@@ -25,7 +25,7 @@
     "dependencies": [
         {
             "uuid": "f3e11a68-f185-43d7-b308-fa7446bc9518",
-            "version": [0, 0, 2]
+            "version": [0, 0, 3]
         },
         {//mojang-gametest
             "uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
