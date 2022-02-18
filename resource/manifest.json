@@ -4,7 +4,7 @@
         "description": "display direction bar.",
         "name": "Direction Bar Resource",
         "uuid": "f3e11a68-f185-43d7-b308-fa7446bc9518",
-        "version": [0, 0, 2],
+        "version": [0, 0, 3],
         "min_engine_version": [ 1, 18, 20 ]
     },
     "modules": [
