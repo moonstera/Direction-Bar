@@ -48,7 +48,7 @@
       "materials": [ { "*": "Material.direction_bar" } ],
       "textures": [ "Texture.direction_bar"],
       "part_visibility": [
-        { "*": "query.is_in_ui && variable.gliding_speed_value <= 1.0 && query.is_item_name_any('slot.weapon.mainhand',0,'minecraft:compass')" }
+        { "*": "query.is_in_ui && !query.is_gliding && query.is_item_name_any('slot.weapon.mainhand',0,'minecraft:compass')" }
       ],
       "is_hurt_color": {
         "r": 0.0,
